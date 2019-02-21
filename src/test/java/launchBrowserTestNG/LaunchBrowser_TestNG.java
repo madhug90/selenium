@@ -27,7 +27,7 @@ public class LaunchBrowser_TestNG {
 		System.out.println("PhantomJS Headless Driver launched");
 		
 		// Write your script here
-		driver.get("http://35.200.133.49:9200/project-1.0-RAMA/");
+		driver.get("http://35.200.186.214:9200/project-1.0-RAMA/");
 		Thread.sleep(5000);
 		System.out.println("Launch Browser is successful ");
 		System.out.println("Page Title : " + driver.getTitle());	
