@@ -33,9 +33,11 @@ public class LaunchBrowser_TestNG {
 		System.out.println("Page Title : " + driver.getTitle());	
 
 		//Verify page title
+		System.out.println("Verify if the page title is Welcome to Continous Integration with Jenkins in AWS Yottabyte session");
 		Assert.assertEquals(driver.getTitle(), "Welcome to Continous Integration with Jenkins in AWS Yottabyte session");
 
 		//Verify Page text
+		System.out.println("Verify if the page contains text - Hello DevOps Engineers and Architects!");
 		Assert.assertEquals(String.valueOf(driver.getPageSource().contains("Hello DevOps Engineers and Architects!")), "true");
 		
 /*		driver.findElement(By.name("q")).sendKeys("Fresco Play");
